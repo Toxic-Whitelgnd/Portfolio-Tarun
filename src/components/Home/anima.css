@@ -1,0 +1,51 @@
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn;
+     animation-duration: 1s; 
+     animation-delay: 0.4s; 
+    animation-fill-mode: forwards;
+    min-width: 10px;
+  }
+  
+  .text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+  
+   
+  }
+  .text-animate-hover:hover {
+    animation: rubberBand 900ms alternate ease-out;
+    color: #3551d2;
+    scale: 1.2;
+    cursor:default;
+  
+  }
+  @keyframes rubberBand {
+  0%{
+      transform: scaleX(1);
+  }
+  30%{
+    transform: scaleX(0.67) scaleY(1.3);
+  }
+  40%{
+      transform: scaleX(1.12) scaleY(0.75);
+  }
+  55%{
+      transform: scaleX(0.85) scaleY(1);
+  }
+  65%{
+      transform: scaleX(1.09) scaleY(0.85);
+  }
+  75%{
+      transform: scaleX(0.9)  scaleY(1);
+  }
+  90%{
+      transform: scaleX(1.05) scaleY(0.95);
+  }
+  100%{
+      transform: scaleX(1) scaleY(1);
+  }
+  
+}
