@@ -58,10 +58,10 @@ class AboutMe extends React.Component {
             <AboutmeCube />
             <div className='abtmecontainer bg-slate-700 p-5 text-center   shadow-lg'>
                     <p className='text-2xl'>
-                I am 19 year old, CSE-AI Student studing in Jain University,Bangalore.I <br></br>
+                I am 19 year old, <span className='text-slate-400'>CSE-AI</span> Student studing in <span className='text-cyan-400 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
                 really enjoying solving problems as well as making things pretty and easier 
-                to use.I can't stop learning <br></br>
-                <span className='text-blue-400'> new things; the more; the better. </span>
+                to use.I can't stop learning. <br></br>
+                <span className='text-blue-400'> New things; The more; The better. </span>
                 </p>
             </div>
          

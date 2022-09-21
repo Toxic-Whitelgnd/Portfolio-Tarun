@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import learnedskills from "../API's/skillsApi"
 import SkillCircleBar from '../SkillBar/skillcirclebar';
+import SkillsSVG from '../SVGanimations/skillssvg';
 
 export default function Skills() {
   const [skillslearn,setskills] = useState(learnedskills);
@@ -28,10 +29,10 @@ export default function Skills() {
   const [category , setcategory] = useState(allcategories);
   console.log(category);
   return (
-    <div>
+    <div className='mt-14 bg-[#7FFFD4]'>
       <div>
         <h1 className='text-center'>
-          Skills
+          <SkillsSVG />
         </h1>
       </div>
       <div>

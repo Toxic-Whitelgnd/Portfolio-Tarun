@@ -2,8 +2,8 @@ const learnedskills= [{
     id:1,
     lang:'Html',
     percentage: 80,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:'#136c65',
+    trailcolor:'#1b988d',
     textcolor: '#172423',
     side:'frontend'
 },
@@ -11,8 +11,8 @@ const learnedskills= [{
     id:2,
     lang:'CSS',
     percentage: 68,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:'#136c65',
+    trailcolor:'#1b988d',
     textcolor: '#172423',
     side:'frontend'
 },
@@ -20,8 +20,8 @@ const learnedskills= [{
     id:3,
     lang:'JS',
     percentage: 76,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:'#136c65',
+    trailcolor:'#1b988d',
     textcolor: '#172423',
     side:'frontend'
 },
@@ -29,8 +29,8 @@ const learnedskills= [{
     id:4,
     lang:'ReactJs',
     percentage: 70,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:'#136c65',
+    trailcolor:'#1b988d',
     textcolor: '#172423',
     side:'frontend'
 },
@@ -39,7 +39,7 @@ const learnedskills= [{
     lang:'Firebase',
     percentage: 70,
     pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    trailcolor:'#3cddcf',
     textcolor: '#172423',
     side:'backend'
 },
@@ -48,43 +48,16 @@ const learnedskills= [{
     lang:'Express',
     percentage: 50,
     pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    trailcolor:'#3cddcf',
     textcolor: '#172423',
     side:'backend'
-},
-{
-    id:7,
-    lang:'Python',
-    percentage: 80,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
-    textcolor: '#172423',
-    side:'programming'
-},
-{
-    id:8,
-    lang:'Java',
-    percentage: 50,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
-    textcolor: '#172423',
-    side:'programming'
-},
-{
-    id:9,
-    lang:'C',
-    percentage:55,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
-    textcolor: '#172423',
-    side:'programming'
 },
 {
     id:10,
     lang:'MongoDB',
     percentage: 30,
     pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    trailcolor:'#3cddcf',
     textcolor: '#172423',
     side:'backend'
 },
@@ -93,16 +66,44 @@ const learnedskills= [{
     lang:'SQL',
     percentage: 66,
     pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    trailcolor:'#3cddcf',
     textcolor: '#172423',
     side:'backend'
 },
 {
+    id:7,
+    lang:'Python',
+    percentage: 80,
+    pathcolor:'#239090',
+    trailcolor:'#84e1e1',
+    textcolor: '#172423',
+    side:'programming'
+},
+{
+    id:8,
+    lang:'Java',
+    percentage: 50,
+    pathcolor:'#239090',
+    trailcolor:'#84e1e1',
+    textcolor: '#172423',
+    side:'programming'
+},
+{
+    id:9,
+    lang:'C',
+    percentage:55,
+    pathcolor:'#239090',
+    trailcolor:'#84e1e1',
+    textcolor: '#172423',
+    side:'programming'
+},
+
+{
     id:12,
     lang:'Dart',
     percentage: 60,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:'#0088cc',
+    trailcolor:'#4dc3ff',
     textcolor: '#172423',
     side:'Mobile development'
 },
@@ -110,8 +111,8 @@ const learnedskills= [{
     id:13,
     lang:'PhotoShop',
     percentage: 68,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:' #00cc99',
+    trailcolor:'#99e6e6',
     textcolor: '#172423',
     side:'design'
 },
@@ -119,8 +120,8 @@ const learnedskills= [{
     id:14,
     lang:'AdobeXD',
     percentage: 70,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:' #00cc99',
+    trailcolor:'#99e6e6',
     textcolor: '#172423',
     side:'design'
 },
@@ -128,8 +129,8 @@ const learnedskills= [{
     id:15,
     lang:'Illustrator',
     percentage: 40,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:' #00cc99',
+    trailcolor:'#99e6e6',
     textcolor: '#172423',
     side:'design'
 },
@@ -137,8 +138,8 @@ const learnedskills= [{
     id:16,
     lang:'Figma',
     percentage: 80,
-    pathcolor:'#05756c',
-    trailcolor:'#23c4b7',
+    pathcolor:' #00cc99',
+    trailcolor:'#99e6e6',
     textcolor: '#172423',
     side:'design'
 },

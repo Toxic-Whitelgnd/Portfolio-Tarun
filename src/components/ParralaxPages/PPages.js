@@ -19,8 +19,8 @@ export default function ParallaxPages() {
                 </div>
             </div>
         </Parallax>
-        <Parallax className="aboutme" bgImage={homeimg} strength={-400}  >
-            <div className='content h-screen'>
+        <Parallax className="aboutme" strength={-400}  >
+            <div className='content h-auto'>
                 <div className='text-content'>
                    <AboutMe />
                 </div>
@@ -38,9 +38,7 @@ export default function ParallaxPages() {
         <Parallax className="achivements" strength={-600} >
             <div className='content h-screen'>
                 <div className='text-content'>
-                   <p className="text-2xl text-red-500">
-                    Skills will bbe displayed here
-                   </p>
+                   Projects will be displayed here 
                 </div>
             </div>
         </Parallax>
