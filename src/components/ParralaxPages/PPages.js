@@ -4,13 +4,15 @@ import Home from '../Home/home'
 import "../ParralaxPages/PPages.css"
 import homeimg from "../../images/sectionimages/HomeStud.jpg"
 import AboutMe from '../AboutMe/aboutme'
+import SkillCircleBar from '../SkillBar/skillcirclebar'
+import Skills from '../Skills/skills'
 
 export default function ParallaxPages() {
   return (
     <div>
         <div>
         <Parallax  className="home" bgImage={homeimg} strength={-400} blur={{min:5,max:6}} >
-            <div className='content h-screen'>
+            <div className='content lg:h-screen sm:h-auto'>
                 <div className='text-content'>
                     <Home />
                 
@@ -25,11 +27,11 @@ export default function ParallaxPages() {
             </div>
         </Parallax>
         <Parallax className="skills" strength={600} >
-            <div className='content h-screen'>
+            <div className='content h-auto'>
                 <div className='text-content'>
-                   <p className="text-2xl text-red-500">
-                    Skills will bbe displayed here
-                   </p>
+    
+                    <Skills />
+              
                 </div>
             </div>
         </Parallax>

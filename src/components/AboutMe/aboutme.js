@@ -1,6 +1,7 @@
 import React from 'react'
 import "../AboutMe/aboutme.css"
 
+
 import img1 from "../../images/AboutmeParallax/CodeP.png"
 import img2 from "../../images/AboutmeParallax/EducationP.png"
 import img3 from "../../images/AboutmeParallax/GamesP.png"
@@ -22,7 +23,7 @@ class AboutMe extends React.Component {
             const x = (window.innerWidth - e.pageX*speed)/100             
             const y = (window.innerHeight - e.pageY*speed)/100
 
-            console.log(x,y)
+    
             object.style.transform = `translateX(${x}px) translateY(${y}px)`
         })
         
@@ -32,8 +33,9 @@ class AboutMe extends React.Component {
     const {x, y} = this.state
     return (
         <div className='aboutmeback' >
+             
         <div className="home-container">
-            <div className='mt-14 flex justify-center text-center'>
+        <div className='mt-14 flex justify-center text-center '>
                <AboutmeSVG />
             </div>
         <div className='container-p' onMouseMove={this.mouse_move} >
@@ -54,14 +56,15 @@ class AboutMe extends React.Component {
         </div>
         <div>
             <AboutmeCube />
-            <div className='abtmecontainer bg-slate-700 p-5   shadow-lg'>
+            <div className='abtmecontainer bg-slate-700 p-5 text-center   shadow-lg'>
                     <p className='text-2xl'>
                 I am 19 year old, CSE-AI Student studing in Jain University,Bangalore.I <br></br>
                 really enjoying solving problems as well as making things pretty and easier 
                 to use.I can't stop learning <br></br>
                 <span className='text-blue-400'> new things; the more; the better. </span>
                 </p>
-                </div>
+            </div>
+         
         </div>
         
         <div >

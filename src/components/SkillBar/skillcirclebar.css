@@ -1,0 +1,64 @@
+.skill{
+    width: 160px;
+    height: 160px;
+    /* background-color: blueviolet; */
+    position: relative;
+
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    /* border: 1px solid blue; */
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+    padding: 20px;
+}
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+    -0.5px -0.5px 0px rgba(255,255,255,1),
+    0.5px -0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+    padding: 20px;
+}
+#number{
+    font-weight: 600px;
+    color: #555;
+}
+circle{
+    fill:none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: skillbar 2s linear forwards;
+
+    /* calculations */
+    /* 472-472 * 0.83(skillpercentage) */
+}
+svg{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+@keyframes skillbar {
+    100%{
+        stroke-dashoffset:80;
+    }
+}
+
+.CircularProgressbar{
+    width: 300px;
+    height: 300px;
+    min-width: 250px;
+    position: relative;
+}
