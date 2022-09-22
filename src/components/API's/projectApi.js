@@ -1,10 +1,20 @@
+import img1 from "../../images/Projects/EDlogos.jpeg"
+import img2 from "../../images/Projects/encrypwindow.jpg"
+import img3 from "../../images/Projects/fs.png"
+import img4 from "../../images/Projects/enma.jpg"
+import img5 from "../../images/Projects/EEQR.png"
+import img6 from "../../images/Projects/port.jpg"
+import img7 from "../../images/Projects/todo.jpg"
+import img8 from "../../images/Projects/clgclub.jpg"
+import img9 from "../../images/Projects/aka.jpg"
+
 const projects = [
     {
         id:1,
         name:"Encryption-Decryption",
         languages:'python',
         description:"To encrypt your text, passwords, and other data, you'll need to utilise encryption and decryption.It is a platform that runs on Windows.",
-        img:"fh",
+        img:img2,
         website:"https://toxic-whitelgnd.github.io/EncrypDecrypWeb/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Encryption",
         based:"tkinter"
@@ -13,7 +23,7 @@ const projects = [
         id:2,
         name:"Encryption-Decryption",
         languages:'FullStack',
-        img:"fg",
+        img:img1,
         website:"https://toxic-whitelgnd.github.io/Encry_Decry_html/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Encry_Decry_html",
         description:"Encryption and decryption are used to encrypt and decrypt your text, passwords, and other sensitive information.It is Website runs on network.",
@@ -23,7 +33,7 @@ const projects = [
         id:3,
         name:"FastShare",
         languages:"python",
-        img:"er",
+        img:img3,
         website:"https://toxic-whitelgnd.github.io/FastShareWEB-Deploy/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/FastShare",
         description:"This was my Python Bengining Project, and it was used to share your information with a QR code. Tkinter was used to create this page.",
@@ -33,7 +43,7 @@ const projects = [
     {
         id:4,
         name:"Encryption-Decryption Mobile",
-        img:"df",
+        img:img4,
         languages:"dart",
         website:"https://toxic-whitelgnd.github.io/encrypdecrypmobile-deploy/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Encryp_Decryp_Android",
@@ -44,7 +54,7 @@ const projects = [
     {
         id:5,
         name:"Entry_Exit_QR",
-        img:"df",
+        img:img5,
         languages:"python",
         website:"https://toxic-whitelgnd.github.io/entryexitweb-deploy/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Entry_Exit_QR",
@@ -55,7 +65,7 @@ const projects = [
     {
         id:6,
         name:"Portfolio-old",
-        img:"df",
+        img:img6,
         languages:"Frontend",
         website:"https://toxic-whitelgnd.github.io/portfolio-deploy/",
         sourcecode:"",
@@ -66,7 +76,7 @@ const projects = [
     {
         id:7,
         name:"ToDo-App",
-        img:"df",
+        img:img7,
         languages:"python",
         website:"https://github.com/Toxic-Whitelgnd/TodoWeb/tree/main",
         sourcecode:"https://github.com/Toxic-Whitelgnd/TodoWeb/tree/main",
@@ -77,7 +87,7 @@ const projects = [
     {
         id:8,
         name:"Collage-Clubs",
-        img:"df",
+        img:img8,
         languages:"Frontend",
         website:"https://toxic-whitelgnd.github.io/college-clubs/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/college-clubs",
@@ -88,7 +98,7 @@ const projects = [
     {
         id:9,
         name:"Anime-Ecommerce-website",
-        img:"df",
+        img:img9,
         languages:"FullStack",
         website:"https://anime-ecommerce.vercel.app/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/anime-ecommerce",

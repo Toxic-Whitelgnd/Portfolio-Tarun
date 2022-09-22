@@ -6,6 +6,7 @@ import ParallaxPages from './components/ParralaxPages/PPages';
 import AboutMe from './components/AboutMe/aboutme';
 import Skills from './components/Skills/skills';
 import Portfolio from './components/Portfolio/Portfolio';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
 
         </Routes>
+        <Footer />
       </div>
     </div>
   );

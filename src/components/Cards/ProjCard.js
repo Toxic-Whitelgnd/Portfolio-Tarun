@@ -3,13 +3,13 @@ import "../Cards/ProjCard.css"
 
 import img1 from "../../images/sectionimages/HomeStud.jpg"
 
-export default function ProjCard({projname,lang,based,desc,websitelink,sourcecodelink}) {
+export default function ProjCard({projname,lang,based,desc,websitelink,sourcecodelink,image}) {
   return (
     <div>
         <div className='projcontainer'>
             <div className='boxproj'>
                 <div className='projcontent'>
-                    <img src={img1} alt="fkk" className='projimg'  />
+                    <img src={image} alt="fkk" className='projimg'  />
                     <h3 className='text-start text-2xl capitalize '>{projname}</h3>
                     <h4 className='text-xl capitalize text-slate-400'>{lang}</h4>
                     <h6 className='capitalize text-slate-300'>{based}</h6>

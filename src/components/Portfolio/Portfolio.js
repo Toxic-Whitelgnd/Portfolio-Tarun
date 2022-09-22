@@ -62,7 +62,7 @@ export default function Portfolio() {
                         desc={value.description}
                         websitelink={value.website}
                         sourcecodelink={value.sourcecode}
-
+                        image={value.img}
                         />
                         </div>
                         </>

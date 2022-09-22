@@ -44,11 +44,11 @@ circle{
     /* calculations */
     /* 472-472 * 0.83(skillpercentage) */
 }
-svg{
+/* svg{
     position: absolute;
     top:0;
     left: 0;
-}
+} */
 
 @keyframes skillbar {
     100%{
