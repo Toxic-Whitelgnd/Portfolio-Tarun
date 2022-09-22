@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import ParallaxPages from './components/ParralaxPages/PPages';
 import AboutMe from './components/AboutMe/aboutme';
 import Skills from './components/Skills/skills';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" index element={<ParallaxPages />}/>
             <Route path="/about" index element={<AboutMe />}/>
             <Route path="/skills" index element={<Skills />}/>
+            <Route path="/portfolio" index element={<Portfolio />}/>
 
 
         </Routes>

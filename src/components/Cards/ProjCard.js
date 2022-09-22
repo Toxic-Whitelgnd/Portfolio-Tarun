@@ -3,30 +3,31 @@ import "../Cards/ProjCard.css"
 
 import img1 from "../../images/sectionimages/HomeStud.jpg"
 
-export default function ProjCard() {
+export default function ProjCard({projname,lang,based,desc,websitelink,sourcecodelink}) {
   return (
     <div>
         <div className='projcontainer'>
             <div className='boxproj'>
                 <div className='projcontent'>
                     <img src={img1} alt="fkk" className='projimg'  />
-                    <h2>ProjName</h2>
-                    <h6>Languages</h6>
-                    <p>description Lorem Ipsum is simply 
-                        dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum 
-                        has been the industry's standard
-                         dummy text ever since the 1500s,
+                    <h3 className='text-start text-2xl capitalize '>{projname}</h3>
+                    <h4 className='text-xl capitalize text-slate-400'>{lang}</h4>
+                    <h6 className='capitalize text-slate-300'>{based}</h6>
+                    <p className='capitalize'>{desc}
                     </p>
                     <div>
-                        <button type="button" className="btn btn-outline-light mr-3">Website</button>
-                        <button type="button" className="btn btn-outline-light">SourceCode</button>
+                        <button type="button" onClick={()=>{
+                            window.open(websitelink);
+                        }} className="btn btn-outline-light mr-3">Website</button>
+                        <button type="button" onClick={()=>{
+                            window.open(sourcecodelink);
+                        }} className="btn btn-outline-light">SourceCode</button>
                     </div>
                     
                 </div>
             </div>
         </div>
-        <svg>
+        <svg className='wv'>
             <filter id="wavy">
                 <feTurbulence x='0' y='0' baseFrequency="0.02" 
                 numOctaves="5" seed="2">
@@ -39,3 +40,5 @@ export default function ProjCard() {
     </div>
   )
 }
+
+// TODO: mAKING it as dynamic image,projectname,languages,description,websitelink,sourcecode link

@@ -37,7 +37,7 @@ export default function ParallaxPages() {
             </div>
         </Parallax>
         <Parallax className="achivements" strength={-600} >
-            <div className='content h-screen'>
+            <div className='content'>
                 <div className='text-content'>
                    <Portfolio />
                 </div>

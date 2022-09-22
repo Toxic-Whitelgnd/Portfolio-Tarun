@@ -14,11 +14,12 @@
     height: 900px;
 }
 .achivements{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 
 }
 .portfolio{
     background-color: brown;
+    height: auto;
 }
 .contact{
     background-color: cornflowerblue;
