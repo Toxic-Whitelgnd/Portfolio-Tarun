@@ -29,7 +29,7 @@ export default function Portfolio() {
     const [category,setcategory] = useState(allcategories) ;
 
   return (
-    <div className='mt-14 bg-black'>
+    <div className='mt-14 bg-black lund'>
         <div>
             <h1 className='text-white text-start'>Portfolio</h1>
         </div>

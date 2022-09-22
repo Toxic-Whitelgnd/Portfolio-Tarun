@@ -33,7 +33,8 @@ export default function Skills() {
     <div className='mt-14 bg-[#7FFFD4]'>
       <div>
         <h1 className='text-center'>
-          <SkillsSVG />
+          {/* <SkillsSVG /> */}
+          Skills
         </h1>
       </div>
       <div>
