@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import learnedskills from "../API's/skillsApi"
+import Skillcube from '../CubeAnimations/Skillcube';
 import SkillCircleBar from '../SkillBar/skillcirclebar';
 import SkillsSVG from '../SVGanimations/skillssvg';
 
@@ -74,7 +75,9 @@ export default function Skills() {
               })
             }
         </div>
-
+        <div>
+          <Skillcube />
+        </div>
     </div>
   )
 }

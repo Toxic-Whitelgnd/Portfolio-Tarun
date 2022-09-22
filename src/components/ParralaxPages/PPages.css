@@ -1,3 +1,7 @@
+:root{
+    --primary:rgb(19, 137, 176);
+}
+
 .home{
     background-color: rgb(47, 151, 220);
 }
@@ -6,7 +10,7 @@
     height: auto;
 }
 .aboutme{
-    background-color: rgb(19, 137, 176);
+    background-color: var(--primary);
     height: 900px;
 }
 .achivements{

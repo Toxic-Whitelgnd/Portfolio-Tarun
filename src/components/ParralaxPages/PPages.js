@@ -6,6 +6,7 @@ import homeimg from "../../images/sectionimages/HomeStud.jpg"
 import AboutMe from '../AboutMe/aboutme'
 import SkillCircleBar from '../SkillBar/skillcirclebar'
 import Skills from '../Skills/skills'
+import Portfolio from '../Portfolio/Portfolio'
 
 export default function ParallaxPages() {
   return (
@@ -38,7 +39,7 @@ export default function ParallaxPages() {
         <Parallax className="achivements" strength={-600} >
             <div className='content h-screen'>
                 <div className='text-content'>
-                   Projects will be displayed here 
+                   <Portfolio />
                 </div>
             </div>
         </Parallax>
