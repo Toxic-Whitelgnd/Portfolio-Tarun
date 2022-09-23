@@ -7,6 +7,7 @@ import AboutMe from '../AboutMe/aboutme'
 import SkillCircleBar from '../SkillBar/skillcirclebar'
 import Skills from '../Skills/skills'
 import Portfolio from '../Portfolio/Portfolio'
+import Contact from '../contact/contact'
 
 export default function ParallaxPages() {
   return (
@@ -43,21 +44,19 @@ export default function ParallaxPages() {
                 </div>
             </div>
         </Parallax>
-        <Parallax className="portfolio" strength={600} >
+        {/* <Parallax className="portfolio" strength={600} >
             <div className='content h-screen'>
                 <div className='text-content'>
                    <p className="text-2xl text-red-500">
-                    Skills will bbe displayed here
+                     Achivements will be displayed
                    </p>
                 </div>
             </div>
-        </Parallax>
+        </Parallax> */}
         <Parallax className="contact" strength={-600} >
-            <div className='content h-screen'>
+            <div className='content'>
                 <div className='text-content'>
-                   <p className="text-2xl text-red-500">
-                    Skills will bbe displayed here
-                   </p>
+                   <Contact />
                 </div>
             </div>
         </Parallax>

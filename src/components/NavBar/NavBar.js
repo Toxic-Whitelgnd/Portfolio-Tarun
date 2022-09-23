@@ -69,7 +69,7 @@ export default function NavBar() {
                     Skills
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink
                     to="/achivements"
                     className="nav-link pe-4"
@@ -81,7 +81,7 @@ export default function NavBar() {
                   >
                     Achivements
                   </NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <NavLink
                     to="/portfolio"
