@@ -83,7 +83,7 @@ export default function Contact() {
             </div>
             <div className='boxc'>
                 <div className='contactc form'>
-                    <h3>Send message</h3>
+                    <h3 className='capitalize'>Send message</h3>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='formbox'>
                             <div className='row50'>
