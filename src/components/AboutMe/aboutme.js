@@ -8,6 +8,8 @@ import img3 from "../../images/AboutmeParallax/GamesP.png"
 import img4 from "../../images/AboutmeParallax/LaptonP.png"
 import img5 from "../../images/AboutmeParallax/LifeP.png"
 import img6 from "../../images/AboutmeParallax/TravelP.png"
+import img7 from "../../images/AboutmeParallax/DogP.png"
+import img8 from "../../images/AboutmeParallax/AkaP.png"
 
 
 import AboutmeSVG from '../SVGanimations/aboutmeSvg'
@@ -51,6 +53,8 @@ class AboutMe extends React.Component {
             <img src={img4} className='object' data-value="-4" alt="image"></img>
             <img src={img5} className='object' data-value="5" alt="image"></img>
             <img src={img6} className='object' data-value="-4" alt="image"></img>
+            <img src={img7} className='object' data-value="3" alt="image"></img>
+            <img src={img8} className='object' data-value="2" alt="image"></img>
             
             
         </div>

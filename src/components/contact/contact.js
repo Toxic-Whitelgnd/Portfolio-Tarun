@@ -1,11 +1,80 @@
-import React from 'react'
+import React,{useState,useRef} from 'react'
 import "../contact/contact.css"
 import {GoLocation} from "react-icons/go"
 import {MdAlternateEmail} from "react-icons/md"
 import {RiPhoneLine} from "react-icons/ri"
 import * as Siico from "react-icons/si"
 
+import emailjs from '@emailjs/browser';
+
 export default function Contact() {
+
+    const [first,setfirst] = useState('');
+    const [last,setlast] = useState('');
+    const [email,setemail] = useState('');
+    const [msg,setmsg] = useState('');
+    const [mob,setmob] = useState('');
+
+    const userdetailsValidation = () =>{
+        if (first,last,email,msg,mob === '')  {
+            window.alert('Please enter your Details');
+        }
+        else{
+            const userdetails = {
+                'ufirstname': first,
+                'ulastname': last,
+                'uemail':email,
+                'umob':mob,
+                'umsg':msg
+            }
+            console.log(userdetails)
+            var emailval = userdetails['uemail']
+            console.log(emailval);
+            emailvalidation(emailval,userdetails);
+        }
+    }
+
+    const emailvalidation = (email,userdetails) =>{
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(email.match(mailformat)){
+            console.log("email is verified")
+            sendDataFuc(userdetails);
+        }
+        else{
+            alert('Email is not valid')
+        }
+    }
+
+    const sendDataFuc = (userdetails)=>{
+        var userdetails = JSON.stringify(userdetails);
+        console.log(userdetails);
+    }
+
+    const clearDetails= () =>{
+        setfirst('')
+        setlast('')
+        setmob('')
+        setmsg('')
+        setemail('')
+    }
+
+    const sendEmail = (e)=> {
+        e.preventDefault();
+
+        console.log('send emailjs');
+        emailjs.sendForm('service_d8ypxfs', 'template_xzi1ecs', form.current, 'FaIW_sH1b_l1x5lcS').
+        then((res)=>{
+            console.log(res.text);
+            window.alert("Your response has been sumbitted");
+            clearDetails();
+        },(err)=>{
+            console.log(err.text);
+        })
+    }
+
+    const form = useRef();
+
+
   return (
     <div className='entirecontact'>
         <div className="contactUs">
@@ -15,40 +84,40 @@ export default function Contact() {
             <div className='boxc'>
                 <div className='contactc form'>
                     <h3>Send message</h3>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className='formbox'>
                             <div className='row50'>
                                 <div className='inputbox'>
                                     <span>First Name</span>
-                                    <input type="text" placeholder='Naruto' />
+                                    <input type="text" placeholder='Naruto' name="firstname" value={first} onChange={e => setfirst(e.target.value)} required/>
                                 </div>
                                 <div className='inputbox'>
                                     <span>Last Name</span>
-                                    <input type="text" placeholder='Uzumaki' />
+                                    <input type="text" placeholder='Uzumaki' name="lastname" value={last} onChange={e => setlast(e.target.value)} required/>
                                 </div>
                             </div>
 
                             <div className='row50'>
                                 <div className='inputbox'>
                                     <span>Email</span>
-                                    <input type="text" placeholder='naruto@gmail.com' />
+                                    <input type="text" placeholder='naruto@gmail.com' name="email"  value={email} onChange={e => setemail(e.target.value)} required/>
                                 </div>
                                 <div className='inputbox'>
                                     <span>Mobile</span>
-                                    <input type="text" placeholder='+91 7834572734' />
+                                    <input type="text" placeholder='+91 7834572734' maxLength={10} name="mobile"  value={mob} onChange={e => setmob(e.target.value)} required />
                                 </div>
                             </div>
 
                             <div className='row100'>
                                 <div className='inputbox'>
                                     <span>Message</span>
-                                    <textarea placeholder='write your message' />
+                                    <textarea placeholder='write your message' name="message"  value={msg} onChange={e => setmsg(e.target.value)} required/>
                                 </div>
                             </div>
 
                             <div className='row100'>
                                 <div className='inputbox'>
-                                    <button type="button" className="btn btn-primary">Send</button>
+                                    <button type="sumbit" onClick={userdetailsValidation} className="btn btn-primary">Send</button>
                                 </div>
                             </div>
                         </div>
