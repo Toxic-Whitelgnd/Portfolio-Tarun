@@ -46,5 +46,12 @@
     }
     .homeh1{
         margin-left: 100px;
+        margin-top: 70px;
     }
+    #logoH{
+        width: 300px;
+    }
+}
+.svgimges{
+    margin-left: 50px;
 }

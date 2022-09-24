@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { NavLink } from "react-router-dom";
 import "../NavBar/NavBar.css"
+import img1 from "../../images/LOGO.png"
 
 export default function NavBar() {
     const [HamShow, setHamShow] = useState(false);
@@ -11,7 +12,7 @@ export default function NavBar() {
 <section className="navbar-bg">
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
-            <a className="navbar-brand">MSOB</a>
+            <a className="navbar-brand"><img src={img1} alt="logo" /></a>
             <button
               className="navbar-toggler bg-primary"
               type="button"

@@ -70,3 +70,11 @@
         fill: #0E3950;
     }
 }
+@media(max-width:600px)
+{
+   
+    #logoC{
+        width: 400px;
+    }
+   
+}

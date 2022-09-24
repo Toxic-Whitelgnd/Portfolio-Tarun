@@ -37,44 +37,36 @@ class AboutMe extends React.Component {
         <div className='aboutmeback' >
              
         <div className="home-container">
-        <div className='mt-14 flex justify-center text-center '>
-               <AboutmeSVG />
+            <div className='mt-14 flex justify-center text-center '>
+                <AboutmeSVG />
             </div>
-        <div className='container-p' onMouseMove={this.mouse_move} >
-            {/* start coding here */}
-            {/* <h2 className='object' data-value="3">Cube<br></br><span>Design</span></h2> */}
+            <div className='container-p' onMouseMove={this.mouse_move} >
+                {/* start coding here */}
+                {/* <h2 className='object' data-value="3">Cube<br></br><span>Design</span></h2> */}
 
-            <AboutmeCube />
-            
-
-            <img src={img1} className='object' data-value="-2" alt="image"></img>
-            <img src={img2} className='object' data-value="4" alt="image"></img>
-            <img src={img3} className='object' data-value="4" alt="image"></img>
-            <img src={img4} className='object' data-value="-4" alt="image"></img>
-            <img src={img5} className='object' data-value="5" alt="image"></img>
-            <img src={img6} className='object' data-value="-4" alt="image"></img>
-            <img src={img7} className='object' data-value="3" alt="image"></img>
-            <img src={img8} className='object' data-value="2" alt="image"></img>
-            
-            
-        </div>
-        <div>
-            
-            <div className='abtmecontainer bg-slate-700 p-5 text-center   shadow-lg'>
-                    <p className='text-2xl'>
-                I am 19 year old, <span className='text-slate-400'>CSE-AI</span> Student studing in <span className='text-cyan-400 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
-                really enjoying solving problems as well as making things pretty and easier 
-                to use.I can't stop learning. <br></br>
-                <span className='text-blue-400'> New things; The more; The better. </span>
-                </p>
-            </div>
-         
-        </div>
-        
-        <div >
+                <AboutmeCube />
                 
-        </div>
 
+                <img src={img1} className='object' data-value="-2" alt="image"></img>
+                <img src={img2} className='object' data-value="4" alt="image"></img>
+                <img src={img3} className='object' data-value="4" alt="image"></img>
+                <img src={img4} className='object' data-value="-4" alt="image"></img>
+                <img src={img5} className='object' data-value="5" alt="image"></img>
+                <img src={img6} className='object' data-value="-4" alt="image"></img>
+                <img src={img7} className='object' data-value="3" alt="image"></img>
+                <img src={img8} className='object' data-value="2" alt="image"></img>
+                
+                
+            </div>
+            
+        </div>
+        <div className='abt-container bg-slate-600 p-5'>
+            <p className='text-center text-2xl text-black'>
+                    I am 19 year old, <span className='text-slate-400'>CSE-AI</span> Student studing in <span className='text-cyan-400 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
+                    really enjoying solving problems as well as making things pretty and easier 
+                    to use.I can't stop learning. <br></br>
+            <span className='text-blue-400'> New things; The more; The better. </span>
+            </p>
         </div>
         </div>
     )
@@ -83,3 +75,8 @@ class AboutMe extends React.Component {
 }
 
 export default AboutMe
+
+// I am 19 year old, <span className='text-slate-400'>CSE-AI</span> Student studing in <span className='text-cyan-400 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
+//                         really enjoying solving problems as well as making things pretty and easier 
+//                         to use.I can't stop learning. <br></br>
+//                         <span className='text-blue-400'> New things; The more; The better. </span>

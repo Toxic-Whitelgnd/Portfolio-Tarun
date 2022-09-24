@@ -60,3 +60,12 @@
         fill: rgba(99, 133, 154, 0.758);
     }
 }
+
+@media(max-width:600px)
+{
+   
+    #logoP{
+        width: 400px;
+    }
+   
+}
