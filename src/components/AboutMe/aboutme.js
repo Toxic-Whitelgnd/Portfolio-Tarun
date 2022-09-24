@@ -44,7 +44,7 @@ class AboutMe extends React.Component {
             {/* start coding here */}
             {/* <h2 className='object' data-value="3">Cube<br></br><span>Design</span></h2> */}
 
-    
+            <AboutmeCube />
             
 
             <img src={img1} className='object' data-value="-2" alt="image"></img>
@@ -59,7 +59,7 @@ class AboutMe extends React.Component {
             
         </div>
         <div>
-            <AboutmeCube />
+            
             <div className='abtmecontainer bg-slate-700 p-5 text-center   shadow-lg'>
                     <p className='text-2xl'>
                 I am 19 year old, <span className='text-slate-400'>CSE-AI</span> Student studing in <span className='text-cyan-400 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
