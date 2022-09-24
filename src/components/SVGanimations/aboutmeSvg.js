@@ -21,6 +21,11 @@ export default function AboutmeSVG() {
         </clipPath>
         </defs>
         </svg>
+        
+
+       
+
+
         </div>
     </div>
   )

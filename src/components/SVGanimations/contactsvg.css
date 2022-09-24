@@ -1,43 +1,58 @@
-#logo{
+#logoC{
     /* position: absolute; */
     /* top:50%; */
     /* left:50%; */
-    animation: fillA 0.8s ease forwards 3.5s;
+    animation: fillC 0.8s ease forwards 3.5s;
     /* transform: translate(-50%, -50%); */
 }
-#logo path:nth-child(1){
+#logoC path:nth-child(1){
     stroke-dasharray: 400px;
     stroke-dashoffset: 300px;
     animation: lin-anim 2.3s ease forwards 0.2s;
 }
-#logo path:nth-child(2){
+#logoC path:nth-child(2){
     stroke-dasharray: 360px;
     stroke-dashoffset: 330px;
     animation: lin-anim 2.4s ease forwards 0.2s;
 }
-#logo path:nth-child(3){
+#logoC path:nth-child(3){
     stroke-dasharray: 670px;
     stroke-dashoffset: 610px;
     animation: lin-anim 2.5s ease forwards 0.2s;
 }
-#logo path:nth-child(4){
+#logoC path:nth-child(4){
     stroke-dasharray: 250px;
     stroke-dashoffset: 150px;
     animation: lin-anim 2.5s ease forwards 0.2s;
 }
-#logo path:nth-child(5){
+#logoC path:nth-child(5){
     stroke-dasharray: 550px;
     stroke-dashoffset: 250px;
     animation: lin-anim 2.4s ease forwards 0.2s;
 }
-#logo path:nth-child(6){
+#logoC path:nth-child(6){
     stroke-dasharray: 620px;
     stroke-dashoffset: 320px;
     animation: lin-anim 2.3s ease forwards 0.2s;
 }
-#logo path:nth-child(7){
+#logoC path:nth-child(7){
     stroke-dasharray: 200px;
     stroke-dashoffset: 100px;
+    animation: lin-anim 2.3s ease forwards 0.2s;
+}
+#logoC path:nth-child(8){
+    stroke-dasharray: 900px;
+    stroke-dashoffset: 700px;
+    animation: lin-anim 2.3s ease forwards 0.2s;
+}
+#logoC path:nth-child(9){
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 400px;
+    animation: lin-anim 2.3s ease forwards 0.2s;
+}
+#logoC path:nth-child(10){
+    stroke-dasharray: 1300px;
+    stroke-dashoffset: 900px;
     animation: lin-anim 2.3s ease forwards 0.2s;
 }
 
@@ -47,11 +62,11 @@
         stroke-dasharray: 0px;
     }
 }
-@keyframes fillA{
+@keyframes fillC{
     from{
         fill: transparent;
     }
     to{
-        fill: whitesmoke;
+        fill: #0E3950;
     }
 }

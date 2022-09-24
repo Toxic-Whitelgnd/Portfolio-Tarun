@@ -3,6 +3,7 @@ import ProjCard from '../Cards/ProjCard'
 import "../Portfolio/Portflio.css"
 
 import projects from '../API\'s/projectApi'
+import PortfolioSVG from '../SVGanimations/portfoliosvg';
 
 export default function Portfolio() {
     const [lang,setlang] = useState(projects) ;
@@ -31,7 +32,9 @@ export default function Portfolio() {
   return (
     <div className='mt-14 bg-black lund'>
         <div>
-            <h1 className='text-white text-start'>Portfolio</h1>
+            <h1 className='flex justify-center text-center mb-10'>
+                <PortfolioSVG />
+            </h1>
         </div>
         <div>
             <h2 className='text-white text-center mb-3'>Filter by languages</h2>

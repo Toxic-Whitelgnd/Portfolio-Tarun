@@ -6,6 +6,7 @@ import {RiPhoneLine} from "react-icons/ri"
 import * as Siico from "react-icons/si"
 
 import emailjs from '@emailjs/browser';
+import ContactSVG from '../SVGanimations/contactsvg'
 
 export default function Contact() {
 
@@ -79,7 +80,7 @@ export default function Contact() {
     <div className='entirecontact'>
         <div className="contactUs">
             <div className='titleh'>
-            <h2>Get in touch</h2>
+            <h2 className='flex justify-center text-center'><ContactSVG /></h2>
             </div>
             <div className='boxc'>
                 <div className='contactc form'>

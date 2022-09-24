@@ -32,9 +32,8 @@ export default function Skills() {
   return (
     <div className='mt-14 bg-[#7FFFD4]'>
       <div>
-        <h1 className='text-center'>
-          {/* <SkillsSVG /> */}
-          Skills
+        <h1 className='flex justify-center text-center mb-10'>
+          <SkillsSVG />
         </h1>
       </div>
       <div>
