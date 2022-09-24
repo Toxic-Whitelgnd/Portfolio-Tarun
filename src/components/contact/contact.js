@@ -79,7 +79,7 @@ export default function Contact() {
   return (
     <div className='entirecontact'>
         <div className="contactUs">
-            <div className='titleh'>
+            <div className='titleh p-3 mt-2'>
             <h2 className='flex justify-center text-center'><ContactSVG /></h2>
             </div>
             <div className='boxc'>

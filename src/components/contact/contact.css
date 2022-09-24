@@ -190,10 +190,25 @@
         width: 100%;
     }
     .contactc{
-        padding:30px ;
+        padding:20px ;
     }
     .map{
         padding: 0;
        
     }
 }
+/* @media (max-width:370px){
+    .formbox{
+        width: 80%;
+    }
+    .contactc .form{
+        width: 320px;
+    }
+    .boxc{
+        position: relative;
+        grid-template-columns: 0.5fr;
+        grid-template-rows: auto;
+        grid-template-areas: "form""info""map";
+    }
+    
+} */

@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Footer/footer.css"
 import  * as Fiico from "react-icons/fi" 
-
+import Topbtn from '../API\'s/Topbtn';
 
 export default function Footer() {
   return (
@@ -23,6 +23,10 @@ export default function Footer() {
                 <li className="list-inline-item"><a href="#">Terms</a></li>
                 <li className="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>
+            <div className="float-right mr-10  lg:-mt-20 ">
+                <Topbtn />
+            </div>
+            
             <p className="copyright">Made by Tarun 💖 © 2022</p>
         </footer>
     </div>

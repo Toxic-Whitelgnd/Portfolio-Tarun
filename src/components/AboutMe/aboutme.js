@@ -37,7 +37,7 @@ class AboutMe extends React.Component {
         <div className='aboutmeback' >
              
         <div className="home-container">
-            <div className='mt-14 flex justify-center text-center '>
+            <div className='mt-14 flex justify-center text-center p-3'>
                 <AboutmeSVG />
             </div>
             <div className='container-p' onMouseMove={this.mouse_move} >

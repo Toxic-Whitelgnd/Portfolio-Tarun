@@ -1,9 +1,10 @@
 import React,{useState} from 'react'
 import learnedskills from "../API's/skillsApi"
-import Topbtn from '../API\'s/Topbtn';
+
 import Skillcube from '../CubeAnimations/Skillcube';
 import SkillCircleBar from '../SkillBar/skillcirclebar';
 import SkillsSVG from '../SVGanimations/skillssvg';
+import {BiFilterAlt} from "react-icons/bi"
 
 export default function Skills() {
   const [skillslearn,setskills] = useState(learnedskills);
@@ -31,21 +32,21 @@ export default function Skills() {
   const [category , setcategory] = useState(allcategories);
   console.log(category);
   return (
-    <div className='mt-14 bg-[#7FFFD4]'>
+    <div className='mt-14 bg-[#7FFFD4] p-3'>
       <div>
         <h1 className='flex justify-center text-center mb-10'>
           <SkillsSVG />
         </h1>
       </div>
       <div>
-        <h3 className="flex flex-wrap justify-center text-center">Filter by Skills</h3>
+        <h3 className="flex flex-wrap justify-center text-center"><BiFilterAlt className='mt-1 mr-1' />Filter by Skills</h3>
         <div className="flex flex-wrap justify-center text-center  mr-4">
         {
           category.map((item,idx)=>{
             return (
               <>
               <div key={idx} >
-              <button type="button" onClick={() =>{filteritems(item)}}  className="btn btn-dark mr-4 capitalize hover:btn btn-outline-info">{item}</button>
+              <button type="button" onClick={() =>{filteritems(item)}}  className="btn btn-dark mr-4 mb-4 capitalize hover:btn btn-outline-info">{item}</button>
               </div>
               </>
             )
@@ -78,7 +79,7 @@ export default function Skills() {
         </div>
         <div>
           <Skillcube />
-          <Topbtn />
+    
         </div>
     </div>
   )

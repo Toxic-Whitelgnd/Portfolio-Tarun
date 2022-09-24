@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import ProjCard from '../Cards/ProjCard'
 import "../Portfolio/Portflio.css"
-
+import {BiFilterAlt} from "react-icons/bi"
 import projects from '../API\'s/projectApi'
 import PortfolioSVG from '../SVGanimations/portfoliosvg';
 
@@ -30,21 +30,21 @@ export default function Portfolio() {
     const [category,setcategory] = useState(allcategories) ;
 
   return (
-    <div className='mt-14 bg-black lund'>
+    <div className= 'bg-black lund'>
         <div>
             <h1 className='flex justify-center text-center mb-10'>
                 <PortfolioSVG />
             </h1>
         </div>
         <div>
-            <h2 className='text-white text-center mb-3'>Filter by languages</h2>
+        <h3 className="flex flex-wrap justify-center text-center text-white mb-4"><BiFilterAlt className='mt-1 mr-1' />Filter by Skills</h3>
             <div className="flex flex-wrap justify-center text-center  mr-4">
         {
           category.map((item,idx)=>{
             return (
               <>
               <div key={idx} >
-              <button type="button" onClick={() =>{filterlang(item)}}  className="btn btn-light mr-4 capitalize hover:btn btn-outline-dark">{item}</button>
+              <button type="button" onClick={() =>{filterlang(item)}}  className="btn btn-light mr-4 mb-3 capitalize hover:btn btn-outline-dark">{item}</button>
               </div>
               </>
             )
