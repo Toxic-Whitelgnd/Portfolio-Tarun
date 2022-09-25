@@ -11,6 +11,7 @@ import Contact from './components/contact/contact';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <div>
       <NavBar />
@@ -27,6 +28,7 @@ function App() {
         <Footer />
       </div>
     </div>
+    </Router>
   );
 }
 

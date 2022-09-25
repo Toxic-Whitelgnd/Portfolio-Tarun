@@ -22,7 +22,7 @@ export default function Home() {
         <div className="myimg flex flex-wrap float-right">
             <img src={homeimg} alt="tarun" className='homeimg' />
         </div>
-        <div className="svgimges mt-24 flex justify-center text-center">
+        <div className=" mt-24 flex justify-center text-center">
                 <svg id="logoH" width="432" height="93" viewBox="0 0 432 93" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M71.076 1.14404V0.644043H70.576H1.07202H0.572021V1.14404V18.68V19.18H1.07202H24.38V91V91.5H24.88H46.768H47.268V91V19.18H70.576H71.076V18.68V1.14404ZM98.585 
                     91.5H98.9436L99.0586 91.1604L104.32 75.628H137.138L142.399 91.1604L142.514 91.5H142.873H166.041H166.754L166.511 90.8299L133.999 0.973924L133.88 0.644043H133.529H108.185H107.834L107.715 0.973925L75.2029
