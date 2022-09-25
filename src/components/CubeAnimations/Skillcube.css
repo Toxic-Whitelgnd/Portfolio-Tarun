@@ -6,6 +6,7 @@
     animation: rot 20s linear infinite;
     top:50%;
     left: 40%;
+    
 }
 @keyframes rot{
     0%{
@@ -39,8 +40,19 @@
     {
         .boxSkill span{
             transform: rotateY(calc(var(--i)*45deg)) translateZ(200px);
+    
         }
         .boxSkill{
             left:30%
         }
     }
+/* @media (max-width: 458px)
+    {
+        .boxSkill span{
+            transform: rotateY(calc(var(--i)*45deg)) translateZ(130px);
+           
+        }
+        .boxSkill{
+            left:30%
+        }
+    } */

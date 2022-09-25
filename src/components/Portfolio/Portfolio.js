@@ -52,7 +52,7 @@ export default function Portfolio() {
         }
         </div>
         </div>
-        <div  className="flex flex-wrap m-3 justify-center">
+        <div  className="flex flex-wrap mt-3 justify-center">
             {
                 lang.map((value,idx)=>{
                     return(

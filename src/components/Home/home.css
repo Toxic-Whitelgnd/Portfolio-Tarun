@@ -52,6 +52,15 @@
         width: 300px;
     }
 }
+@media (max-width:400px){
+    #logoH{
+        width: 200px;
+    }
+    .homeimg{
+        height: 300px;
+    }
+}
+
 .svgimges{
     margin-left: 50px;
 }

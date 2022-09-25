@@ -32,7 +32,7 @@ export default function Skills() {
   const [category , setcategory] = useState(allcategories);
   console.log(category);
   return (
-    <div className='mt-14 bg-[#7FFFD4] p-3'>
+    <div className='mt-14 bg-[#7FFFD4] p-3 overflow-hidden'>
       <div>
         <h1 className='flex justify-center text-center mb-10'>
           <SkillsSVG />

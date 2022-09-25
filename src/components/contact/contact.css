@@ -191,24 +191,22 @@
     }
     .contactc{
         padding:20px ;
+        max-width: 320px;
     }
     .map{
         padding: 0;
        
     }
+    .info .infobox div p{
+        font-size: 1em;
+    }
+    .info .infobox div p:hover{
+        font-size: 1em;
+    }
+    .info .infobox div a{
+        font-size: 0.9em;
+    }
+    .info .infobox div a:hover{
+        font-size: 0.9em;
+    }
 }
-/* @media (max-width:370px){
-    .formbox{
-        width: 80%;
-    }
-    .contactc .form{
-        width: 320px;
-    }
-    .boxc{
-        position: relative;
-        grid-template-columns: 0.5fr;
-        grid-template-rows: auto;
-        grid-template-areas: "form""info""map";
-    }
-    
-} */

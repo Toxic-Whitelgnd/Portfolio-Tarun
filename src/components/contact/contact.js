@@ -137,12 +137,12 @@ export default function Contact() {
 
                         <div>
                             <span><MdAlternateEmail /></span>
-                            <a href='mailto:akatsukiorganisation999@gmail.com'>akatsukiorganisation999@gmail.com</a>
+                            <a href='mailto:akatsukiorganisation999@gmail.com' className='sm:text-xs'>akatsukiorganisation999@gmail.com</a>
                         </div>
 
                         <div>
                             <span><RiPhoneLine /></span>
-                            <a href='#'>+91 56563345435</a>
+                            <a href='#'>+91 8610683202</a>
                         </div>
                     </div>
 

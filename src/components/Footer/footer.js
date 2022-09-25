@@ -10,10 +10,10 @@ export default function Footer() {
         <footer>
             <div className="socialico">
 
-                <a href="#"><Fiico.FiFacebook className='ml-2 mt-2' /></a>
-                <a href="#"><Fiico.FiInstagram className='ml-2 mt-2' /></a>
-                <a href="#"><Fiico.FiTwitter className='ml-2 mt-2'/></a>
-                <a href="#"><Fiico.FiYoutube className='ml-2 mt-2'/></a>
+                <a href="https://www.facebook.com/TheBestBrotherEver/"><Fiico.FiFacebook className='ml-2 mt-2' /></a>
+                <a href="https://www.instagram.com/t_a_r_u_n_s_k_/"><Fiico.FiInstagram className='ml-2 mt-2' /></a>
+                <a href="https://twitter.com/home"><Fiico.FiTwitter className='ml-2 mt-2'/></a>
+                <a href="https://github.com/Toxic-Whitelgnd"><Fiico.FiGithub className='ml-2 mt-2'/></a>
                 
             </div>
             <ul className="list-inline">
