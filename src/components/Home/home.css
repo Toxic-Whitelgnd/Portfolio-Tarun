@@ -51,6 +51,9 @@
     #logoH{
         width: 300px;
     }
+    .svgimges{
+        margin-left: 40px;
+    }
 }
 @media (max-width:400px){
     #logoH{
@@ -58,6 +61,9 @@
     }
     .homeimg{
         height: 300px;
+    }
+    .svgimges{
+        margin-left: 20px;
     }
 }
 
