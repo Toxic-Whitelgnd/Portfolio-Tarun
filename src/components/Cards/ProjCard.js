@@ -34,7 +34,7 @@ export default function ProjCard({projname,lang,based,desc,websitelink,sourcecod
                     <animate attributeName='baseFrequency' dur="60s"
                     values='0.02;0.05;0.02' repeatCount="indefinite" />
                 </feTurbulence>
-                <feDisplacementMap in="SourceGraphic" scale="30" />
+                <feDisplacementMap in="SourceGraphic" scale="10" />
             </filter>
         </svg>
     </div>

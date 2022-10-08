@@ -50,6 +50,10 @@
     }
     #logoH{
         width: 300px;
+        margin-left: 360px;
+    }
+    .fk{
+        margin-right: 200px;
     }
    
 }
@@ -59,6 +63,7 @@
     }
     .homeimg{
         height: 300px;
+       
     }
     
 }
