@@ -32,7 +32,7 @@ export default function Skills() {
   const [category , setcategory] = useState(allcategories);
   console.log(category);
   return (
-    <div className='mt-14 bg-[#7FFFD4] p-3 overflow-hidden'>
+    <div className='mt-14 bg-[#DDACF5] p-3 overflow-hidden'>
       <div>
         <h1 className='flex justify-center text-center mb-10'>
           <SkillsSVG />
@@ -46,7 +46,7 @@ export default function Skills() {
             return (
               <>
               <div key={idx} >
-              <button type="button" onClick={() =>{filteritems(item)}}  className="btn btn-dark mr-4 mb-4 capitalize hover:btn btn-outline-info">{item}</button>
+              <button type="button" onClick={() =>{filteritems(item)}}  className="btn btn-dark mr-4 mb-3 capitalize hover:btn btn-outline-light">{item}</button>
               </div>
               </>
             )

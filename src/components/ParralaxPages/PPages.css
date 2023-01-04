@@ -3,18 +3,18 @@
 }
 
 .home{
-    background-color: rgb(47, 151, 220);
+    background-color: var(--lightp);
 }
 .skills{
-    background-color: aquamarine;
+    background-color: var(--lightp);
     height: auto;
 }
 .aboutme{
-    background-color: var(--primary);
+    background-color: var(--darkp);
     height: auto;
 }
 .achivements{
-    background-color: rgb(0, 0, 0);
+    background-color: var(--darkp);
 
 }
 .portfolio{

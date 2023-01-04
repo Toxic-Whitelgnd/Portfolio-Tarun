@@ -57,7 +57,7 @@
         fill: transparent;
     }
     to{
-        fill: rgba(99, 133, 154, 0.758);
+        fill: var(--udarkp);
     }
 }
 

@@ -52,6 +52,6 @@
         fill: transparent;
     }
     to{
-        fill: #05756c;
+        fill: var(--darkp);
     }
 }

@@ -30,7 +30,7 @@ export default function Portfolio() {
     const [category,setcategory] = useState(allcategories) ;
 
   return (
-    <div className= 'bg-black lund'>
+    <div className= 'bg-[#64379F] lund'>
         <div>
             <h1 className='flex justify-center text-center mb-10'>
                 <PortfolioSVG />

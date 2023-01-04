@@ -1,4 +1,8 @@
 body{
-    background-color: aquamarine;
+    background-color: var(--medp);
 }
 
+.btn{
+    color: red;
+    background-color: var(--darkp);
+}
