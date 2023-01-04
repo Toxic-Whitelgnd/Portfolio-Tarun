@@ -6,6 +6,8 @@ import SkillCircleBar from '../SkillBar/skillcirclebar';
 import SkillsSVG from '../SVGanimations/skillssvg';
 import {BiFilterAlt} from "react-icons/bi"
 
+import "../Skills/skills.css"
+
 export default function Skills() {
   const [skillslearn,setskills] = useState(learnedskills);
 
@@ -46,7 +48,10 @@ export default function Skills() {
             return (
               <>
               <div key={idx} >
-              <button type="button" onClick={() =>{filteritems(item)}}  className="btn btn-dark mr-4 mb-3 capitalize hover:btn btn-outline-light">{item}</button>
+                <div className='btn-wrap'>
+                <button  onClick={() =>{filteritems(item)}} key={idx}  className="cbtn btn-light mr-4 mb-3 capitalize hover:btn btn-outline-dark">{item}</button>
+                </div>
+             
               </div>
               </>
             )

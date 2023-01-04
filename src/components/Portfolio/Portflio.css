@@ -2,3 +2,12 @@
     scroll-behavior: smooth;
     margin-top: 60px;
 }
+.pbtn{
+    background-color: var(--udarkp) !important;
+    color:#fff !important;
+    padding: 13px 13px;
+}
+.pbtn:hover{
+    background-color: var(--medp) !important;
+    color: #000 !important;
+}

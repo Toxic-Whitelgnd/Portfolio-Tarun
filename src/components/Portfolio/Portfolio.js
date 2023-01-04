@@ -45,7 +45,7 @@ export default function Portfolio() {
             return (
               <>
               <div key={idx} >
-              <button type="button" onClick={() =>{filterlang(item)}}  className="btn btn-light mr-4 mb-3 capitalize hover:btn btn-outline-dark">{item}</button>
+              <button type="button" onClick={() =>{filterlang(item)}}  className="pbtn btn-light mr-4 mb-3 capitalize hover:btn btn-outline-dark">{item}</button>
               </div>
               </>
             )
@@ -53,7 +53,7 @@ export default function Portfolio() {
         }
         </div>
         </div>
-        <div  className="flex flex-wrap mt-3 justify-center">
+        <div  className="flex flex-wrap mt-1 gap-x-1 justify-center">
             {
                 lang.map((value,idx)=>{
                     return(

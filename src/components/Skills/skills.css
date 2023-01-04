@@ -1,8 +1,14 @@
-body{
-    background-color: var(--medp);
+.btn-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
-.btn{
-    color: red;
-    background-color: var(--darkp);
+.cbtn{
+    background-color: var(--medp) !important;
+    color:#fff !important;
+    padding: 13px 13px;
+}
+.cbtn:hover{
+    background-color: var(--darkp) !important;
+    color: #000 !important;
 }
