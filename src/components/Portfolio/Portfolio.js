@@ -4,6 +4,7 @@ import "../Portfolio/Portflio.css"
 import {BiFilterAlt} from "react-icons/bi"
 import projects from '../API\'s/projectApi'
 import PortfolioSVG from '../SVGanimations/portfoliosvg';
+import { Newprojcard } from '../Cards/Newprojcard'
 
 export default function Portfolio() {
     const [lang,setlang] = useState(projects) ;
@@ -58,14 +59,14 @@ export default function Portfolio() {
                     return(
                         <>
                         <div key={idx} className="m-5">
-                        <ProjCard 
+                        <Newprojcard
                         projname={value.name}
                         lang={value.languages}
                         based={value.based}
                         desc={value.description}
                         websitelink={value.website}
                         sourcecodelink={value.sourcecode}
-                        image={value.img}
+                        Pimage={value.img}
                         />
                         </div>
                         </>

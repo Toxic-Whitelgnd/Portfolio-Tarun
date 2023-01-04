@@ -1,0 +1,102 @@
+.proj-wrap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.proj-card{
+    height: 450px;
+    width: 310px;
+    background-color: #fff;
+    transform: scale(0.7);
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.proj-info{
+    widht: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+.proj-info .proj-title{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--udarkp);
+    position: absolute;
+    top: 100px;
+    letter-spacing:1px;
+    text-decoration: capitalize;
+}
+.proj-info .proj-type{
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--darkp);
+    position: absolute;
+    top: 150px;
+
+}
+.proj-info .proj-divider{
+    background-color: var(--darkp);
+    height: 1.5px;
+    width:70px;
+    position: absolute;
+    top: 190px;
+
+}
+.proj-info .proj-desc{
+    position: absolute;
+    top:210px;
+    color: var(--medp);
+    font: 18px;
+    line-height: 29px;
+    text-align: center;
+
+}
+.proj-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.proj-btns .proj-web-btn  {
+    position:absolute;
+    bottom:30px;
+    left:40px;
+    background-color: var(--darkp);
+    border: none;
+    font-size: 15px;
+    padding: 13px 13px;
+    cursor: pointer;
+    color: #fff;
+}
+.proj-btns .proj-src-btn{
+    position:absolute;
+    
+    bottom:30px;
+    background-color: var(--darkp);
+    border: none;
+    font-size: 15px;
+    padding: 13px 13px;
+    cursor: pointer;
+    color: #fff;
+}
+.proj-photo{
+    height:100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+.proj-card:hover .proj-photo{
+    transform: scale(0.5,0.35) translateY(-650px);
+    border-radius: 50%;
+    background-size: 100% 150%;
+    background-position:0 -25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}

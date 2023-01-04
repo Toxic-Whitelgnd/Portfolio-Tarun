@@ -11,7 +11,7 @@ import img9 from "../../images/Projects/aka.jpg"
 const projects = [
     {
         id:1,
-        name:"Encryption-Decryption",
+        name:"Encryp-Decryp",
         languages:'python',
         description:"To encrypt your text, passwords, and other data, you'll need to utilise encryption and decryption.It is a platform that runs on Windows.",
         img:img2,
@@ -21,7 +21,7 @@ const projects = [
     },
     {
         id:2,
-        name:"Encryption-Decryption",
+        name:"Encryp-Decryp",
         languages:'FullStack',
         img:img1,
         website:"https://toxic-whitelgnd.github.io/Encry_Decry_html/",
@@ -42,7 +42,7 @@ const projects = [
     },
     {
         id:4,
-        name:"Encryption-Decryption Mobile",
+        name:"EncDec-Mobile",
         img:img4,
         languages:"dart",
         website:"https://toxic-whitelgnd.github.io/encrypdecrypmobile-deploy/",
@@ -97,7 +97,7 @@ const projects = [
     },
     {
         id:9,
-        name:"Anime-Ecommerce-website",
+        name:"EcommerceAnime",
         img:img9,
         languages:"FullStack",
         website:"https://anime-ecommerce.vercel.app/",

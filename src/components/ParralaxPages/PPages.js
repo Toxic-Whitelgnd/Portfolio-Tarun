@@ -8,6 +8,7 @@ import SkillCircleBar from '../SkillBar/skillcirclebar'
 import Skills from '../Skills/skills'
 import Portfolio from '../Portfolio/Portfolio'
 import Contact from '../contact/contact'
+import { Newprojcard } from '../Cards/Newprojcard'
 
 export default function ParallaxPages() {
   return (
@@ -33,7 +34,6 @@ export default function ParallaxPages() {
                 <div className='text-content'>
     
                     <Skills />
-              
                 </div>
             </div>
         </Parallax>
