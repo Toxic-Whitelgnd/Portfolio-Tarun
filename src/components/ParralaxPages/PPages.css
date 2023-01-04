@@ -22,6 +22,6 @@
     height: auto;
 }
 .contact{
-    background-color: cornflowerblue;
+    background-color: var(--medp);
     height: auto;
 }

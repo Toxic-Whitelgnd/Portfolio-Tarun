@@ -1,5 +1,5 @@
 .entirecontact{
-    background-color: cornflowerblue;
+    background-color: var(--medp);
     margin-top: 19px;
 }
 
@@ -44,7 +44,7 @@
     margin-top: 20px;
 }
 .contactc h3{
-    color: #0e3959;
+    color: var(--darkp);
     font-weight: 500;
     font-size: 1.4em;
     margin-bottom: 10px;
@@ -69,7 +69,7 @@
     width: 100%;
 }
 .inputbox span{
-    color: #18b7ff;
+    color: var(--medp);
     margin-top: 10px;
     margin-bottom: 5px;
     font-weight: 500;
@@ -100,7 +100,7 @@
 
 /* info */
 .info{
-    background: #0e3950;
+    background: var(--udarkp);
 }
 .info h3{
     color: #fff;
@@ -116,7 +116,7 @@
     min-width: 40px;
     height: 40px;
     color: #fff;
-    background: #18b7ff;
+    background: var(--medp);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,6 +126,7 @@
 }
 
 .info .infobox div p{
+    margin-top:8px;
     color:#fff;
     font-size: 1.1em;
 }
@@ -154,10 +155,10 @@
 .sci li a{
     /* color: white; */
     font-size: 2em;
-    color: #ccc;
+    color: var(--medp);
 }
 .sci li a:hover{
-    color:#fff;
+    color:var(--lightp);
 }
 .map{
     padding: 0;
@@ -167,6 +168,19 @@
     width: 100%;
     height: 100%;
 }
+
+.sbtn{
+        position: absolute;
+        border-radius: 8px;
+        background-color: var(--medp) !important;
+        color:#fff !important;
+        padding: 13px 23px;
+    }
+.sbtn:hover{
+        background-color: var(--darkp) !important;
+        color: #000 !important;
+    }
+
 
 /* responsive design */
 @media (max-width: 990px){

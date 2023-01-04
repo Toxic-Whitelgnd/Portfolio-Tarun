@@ -1,7 +1,7 @@
 .footer-basic {
     padding:40px 0;
-    background-color:#d0e0ef;
-    color:#4b4c4d;
+    background-color:var(--udarkp);
+    color:var(--medp);
   }
   
   .footer-basic ul {
@@ -40,7 +40,7 @@
     display:inline-block;
     text-align:center;
     border-radius:55%;
-    border:1px solid #ccc;
+    border:1px solid var(--lightp);
     margin:0 8px;
     color:inherit;
     opacity:0.75;
@@ -54,6 +54,6 @@
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:#aaa;
+    color:var(--lightp);
     margin-bottom:0;
   }

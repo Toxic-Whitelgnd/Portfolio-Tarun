@@ -118,7 +118,7 @@ export default function Contact() {
 
                             <div className='row100'>
                                 <div className='inputbox'>
-                                    <button type="sumbit" onClick={userdetailsValidation} className="btn btn-primary">Send</button>
+                                    <button type="sumbit" onClick={userdetailsValidation} className="sbtn">Send</button>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export default function Contact() {
 
                         <div>
                             <span><MdAlternateEmail /></span>
-                            <a href='mailto:akatsukiorganisation999@gmail.com' className='sm:text-xs'>akatsukiorganisation999@gmail.com</a>
+                            <a href='mailto:akatsukiorganisation999@gmail.com' className='sm:text-xs'>tarunskt5678@gmail.com</a>
                         </div>
 
                         <div>

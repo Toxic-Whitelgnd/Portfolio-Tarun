@@ -67,7 +67,7 @@
         fill: transparent;
     }
     to{
-        fill: #0E3950;
+        fill: var(--udarkp);
     }
 }
 @media(max-width:600px)
