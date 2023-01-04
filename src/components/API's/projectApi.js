@@ -1,12 +1,12 @@
-import img1 from "../../images/Projects/EDlogos.jpeg"
-import img2 from "../../images/Projects/encrypwindow.jpg"
-import img3 from "../../images/Projects/fs.png"
-import img4 from "../../images/Projects/enma.jpg"
-import img5 from "../../images/Projects/EEQR.png"
-import img6 from "../../images/Projects/port.jpg"
-import img7 from "../../images/Projects/todo.jpg"
-import img8 from "../../images/Projects/clgclub.jpg"
-import img9 from "../../images/Projects/aka.jpg"
+import img1 from "../../images/Projectnewimg/encrypdecryppy.jpg"
+import img2 from "../../images/Projectnewimg/encdecfs.jpg"
+import img3 from "../../images/Projectnewimg/fastshare.jpg"
+import img4 from "../../images/Projectnewimg/encdecmob.jpg"
+import img5 from "../../images/Projectnewimg/entryexitqr.jpg"
+import img6 from "../../images/Projectnewimg/portfolio.jpg"
+import img7 from "../../images/Projectnewimg/todo.jpg"
+import img8 from "../../images/Projectnewimg/clgclubs.jpg"
+import img9 from "../../images/Projectnewimg/ecommerceanime.jpg"
 
 const projects = [
     {
@@ -14,7 +14,7 @@ const projects = [
         name:"Encryp-Decryp",
         languages:'python',
         description:"To encrypt your text, passwords, and other data, you'll need to utilise encryption and decryption.It is a platform that runs on Windows.",
-        img:img2,
+        img:img1,
         website:"https://toxic-whitelgnd.github.io/EncrypDecrypWeb/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Encryption",
         based:"tkinter"
@@ -23,7 +23,7 @@ const projects = [
         id:2,
         name:"Encryp-Decryp",
         languages:'FullStack',
-        img:img1,
+        img:img2,
         website:"https://toxic-whitelgnd.github.io/Encry_Decry_html/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Encry_Decry_html",
         description:"Encryption and decryption are used to encrypt and decrypt your text, passwords, and other sensitive information.It is Website runs on network.",
