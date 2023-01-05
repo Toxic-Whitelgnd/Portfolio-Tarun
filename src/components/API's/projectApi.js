@@ -58,7 +58,7 @@ const projects = [
         languages:"python",
         website:"https://toxic-whitelgnd.github.io/entryexitweb-deploy/",
         sourcecode:"https://github.com/Toxic-Whitelgnd/Entry_Exit_QR",
-        description:"Students leave and enter institutions, which is only recorded in books, thus we developed software that allows Universities to view their data in a firebase of student entry and exit utilising python.",
+        description:"Using Python I have created entry and exit of students in a institute,where the Entry and exit logs will show in the firebase database.",
         based:"QRcode,Firebase,openIV",
 
     },
@@ -80,7 +80,7 @@ const projects = [
         languages:"python",
         website:"https://github.com/Toxic-Whitelgnd/TodoWeb/tree/main",
         sourcecode:"https://github.com/Toxic-Whitelgnd/TodoWeb/tree/main",
-        description:"ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do, with the most important tasks at the top of the list.",
+        description:"ToDo List App is a kind of app that generally used to maintain our day-to-day tasks that we have to do.",
         based:"Django,Sql,Scss",
 
     },
@@ -97,7 +97,7 @@ const projects = [
     },
     {
         id:9,
-        name:"EcommerceAnime",
+        name:"Ecomm-Anime",
         img:img9,
         languages:"FullStack",
         website:"https://anime-ecommerce.vercel.app/",
