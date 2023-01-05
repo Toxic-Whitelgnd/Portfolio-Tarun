@@ -14,3 +14,6 @@
 .active{
   color: #ae07fa !important;
 }
+.navbar-toggler{
+background-color: var(--medp) !important;
+}

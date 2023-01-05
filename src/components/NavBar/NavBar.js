@@ -14,7 +14,7 @@ export default function NavBar() {
           <div className="container">
             <a className="navbar-brand"><img src={img1} alt="logo" /></a>
             <button
-              className="navbar-toggler bg-primary"
+              className="navbar-toggler bg-[#DDACF5]"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
