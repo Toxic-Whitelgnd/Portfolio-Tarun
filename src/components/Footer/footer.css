@@ -56,4 +56,7 @@
     font-size:13px;
     color:var(--lightp);
     margin-bottom:0;
+    font-family: 'Lobster', cursive;
+    letter-spacing:2px;
+    word-spacing:3px;
   }

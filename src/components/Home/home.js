@@ -22,7 +22,7 @@ export default function Home() {
     {/* newone */}
     <div className='home-row'>
       <div className='home-col1'>
-          <h3>Hi <br></br>I am</h3>
+          <h1>Yo Yo!<br></br>I am</h1>
           <div className='home-row1'><TarunSvg/></div>
           <h3>
           <Typewriter

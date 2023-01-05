@@ -9,6 +9,7 @@
     padding: 13px 13px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
 }
 .cbtn:hover{
     background-color: var(--darkp) !important;

@@ -38,7 +38,7 @@ export default function Portfolio() {
             </h1>
         </div>
         <div>
-        <h3 className="flex flex-wrap justify-center text-center text-white mb-4"><BiFilterAlt className='mt-1 mr-1' />Filter by Skills</h3>
+        <h3 className=" mm flex flex-wrap justify-center text-center text-white mb-4"><BiFilterAlt className='mt-1 mr-1' />Filter by Skills</h3>
             <div className="flex flex-wrap justify-center text-center  mr-4">
         {
           category.map((item,idx)=>{

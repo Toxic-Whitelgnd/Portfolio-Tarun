@@ -18,8 +18,8 @@ export default function Footer() {
             </div>
             <ul className="list-inline">
                 <li className="list-inline-item"><a href="#">Home</a></li>
-                <li className="list-inline-item"><a href="#">Services</a></li>
-                <li className="list-inline-item"><a href="#">About</a></li>
+                <li className="list-inline-item"><a href="mailto:tarunskt5678@gmail.com">Services</a></li>
+                <li className="list-inline-item"><a href="#/about">About</a></li>
                 <li className="list-inline-item"><a href="#">Terms</a></li>
                 <li className="list-inline-item"><a href="#">Privacy Policy</a></li>
             </ul>

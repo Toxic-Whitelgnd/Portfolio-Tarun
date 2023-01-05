@@ -67,10 +67,10 @@ class AboutMe extends React.Component {
         </div>
         <div className='abt-container  p-5'>
             <p className='text-center text-2xl text-black'>
-                    I am 19 year old, <span className='text-slate-400'>CSE-AI</span> Student studing in <span className='text-cyan-400 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
+                    I am 19 year old, <span className='text-violet-200'>CSE-AI</span> Student studing in <span className='text-purple-200 hover:scale-x-150'>Jain University,Bangalore</span>.I <br></br>
                     really enjoying solving problems as well as making things pretty and easier 
                     to use.I can't stop learning. <br></br>
-            <span className='text-blue-400'> New things; The more; The better. </span>
+            <span className='text-violet-400'> " Now or Never " </span>
             </p>
         </div>
         </div>

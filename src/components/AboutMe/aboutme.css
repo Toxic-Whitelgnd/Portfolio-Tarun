@@ -50,6 +50,10 @@
     font-weight:500;
     letter-spacing:10px;
 }
+.abt-container{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+} 
 
 
 @media(max-width:800px)

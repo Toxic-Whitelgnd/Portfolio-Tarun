@@ -137,7 +137,7 @@ export default function Contact() {
 
                         <div>
                             <span><MdAlternateEmail /></span>
-                            <a href='mailto:akatsukiorganisation999@gmail.com' className='sm:text-xs'>tarunskt5678@gmail.com</a>
+                            <a href='mailto:tarunskt5678@gmail.com' className='sm:text-xs'>tarunskt5678@gmail.com</a>
                         </div>
 
                         <div>
