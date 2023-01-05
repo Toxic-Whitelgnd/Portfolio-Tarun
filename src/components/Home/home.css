@@ -79,8 +79,8 @@
 
 @media only screen and (max-width:450px){
     .home-col2 .home-img{
-        transform: translateX(30px);
-        width:85%;
+        transform: translateX(20px);
+        width:90%;
         height:300px;
     }
     .home-row{
