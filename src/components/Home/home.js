@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import "../Home/home.css"
-import homeimg from "../../images/sectionimages/tarun.png"
+import homeimg from "../../images/newhome.png"
 import AnimatedLetters from './Animatedletters'
 import Typewriter from 'typewriter-effect';
 

@@ -14,7 +14,8 @@ export default function ParallaxPages() {
   return (
     <div>
         <div>
-        <Parallax  className="home" bgImage={homeimg} strength={-400} blur={{min:5,max:6}} >
+        {/* bgImage={homeimg} */}
+        <Parallax  className="home"  strength={-400} blur={{min:5,max:6}} >
             <div className='content lg:h-screen sm:h-auto'>
                 <div className='text-content'>
                     <Home />
