@@ -4,7 +4,7 @@
 }
 .aboutmeback{
   /* background-image: url("../../images/sectionimages/HomeStud.jpg"); */
-  /* background-color: rgb(19, 137, 176); */
+  background-color: var(--darkp);
   height: auto;
 }
 .container-p{

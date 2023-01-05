@@ -4,6 +4,7 @@
 
 .home{
     background-color: var(--medp);
+    height: auto !important;
 }
 .skills{
     background-color: var(--lightp);

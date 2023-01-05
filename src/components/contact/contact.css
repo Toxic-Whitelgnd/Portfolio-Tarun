@@ -193,12 +193,18 @@
         grid-template-rows: auto;
         grid-template-areas: "form""info""map";
     }
+    .formbox{
+        height:500px;
+    }
 }
 @media (max-width: 560px){
     .formbox .row50{
         display: flex;
         gap: 0;
         flex-direction: column;
+    }
+    .formbox{
+        height:720px;
     }
     .inputbox{
         width: 100%;
