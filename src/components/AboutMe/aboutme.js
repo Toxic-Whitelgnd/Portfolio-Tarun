@@ -2,14 +2,15 @@ import React from 'react'
 import "../AboutMe/aboutme.css"
 
 
-import img1 from "../../images/AboutmeParallax/CodeP.png"
-import img2 from "../../images/AboutmeParallax/EducationP.png"
-import img3 from "../../images/AboutmeParallax/GamesP.png"
-import img4 from "../../images/AboutmeParallax/LaptonP.png"
-import img5 from "../../images/AboutmeParallax/LifeP.png"
-import img6 from "../../images/AboutmeParallax/TravelP.png"
-import img7 from "../../images/AboutmeParallax/DogP.png"
-import img8 from "../../images/AboutmeParallax/AkaP.png"
+import img1 from "../../images/Aboutmenewparallax/CodeP.png"
+import img2 from "../../images/Aboutmenewparallax/EducationP.png"
+import img3 from "../../images/Aboutmenewparallax/GamesP.png"
+import img4 from "../../images/Aboutmenewparallax/LaptopP.png"
+import img5 from "../../images/Aboutmenewparallax/LifeP.png"
+import img6 from "../../images/Aboutmenewparallax/TravelP.png"
+import img7 from "../../images/Aboutmenewparallax/DogP.png"
+import img8 from "../../images/Aboutmenewparallax/AkaP.png"
+import img9 from "../../images/Aboutmenewparallax/MusicP.png"
 
 
 import AboutmeSVG from '../SVGanimations/aboutmeSvg'
@@ -44,7 +45,10 @@ class AboutMe extends React.Component {
                 {/* start coding here */}
                 {/* <h2 className='object' data-value="3">Cube<br></br><span>Design</span></h2> */}
 
-                <AboutmeCube />
+                <div className='cube-wrap'>
+                    <AboutmeCube />
+                </div>
+                
                 
 
                 <img src={img1} className='object' data-value="-2" alt="image"></img>
@@ -55,6 +59,7 @@ class AboutMe extends React.Component {
                 <img src={img6} className='object' data-value="-4" alt="image"></img>
                 <img src={img7} className='object' data-value="3" alt="image"></img>
                 <img src={img8} className='object' data-value="2" alt="image"></img>
+                <img src={img9} className='object' data-value="5" alt="image"></img>
                 
                 
             </div>

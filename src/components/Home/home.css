@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (max-width:450px){
     .home-col2 .home-img{
         transform: translateX(30px);
         width:85%;
