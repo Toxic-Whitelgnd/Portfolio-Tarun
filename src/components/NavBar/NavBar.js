@@ -8,6 +8,7 @@ export default function NavBar() {
   return (
     <div>
 
+{/* this is testing */}
 
 <section className="navbar-bg">
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
