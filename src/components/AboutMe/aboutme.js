@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../AboutMe/aboutme.css"
 
 
@@ -32,6 +32,7 @@ class AboutMe extends React.Component {
         
     }
   render() {
+    
 
     const {x, y} = this.state
     return (

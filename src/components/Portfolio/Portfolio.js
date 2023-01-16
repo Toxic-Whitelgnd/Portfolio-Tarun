@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import ProjCard from '../Cards/ProjCard'
 import "../Portfolio/Portflio.css"
 import {BiFilterAlt} from "react-icons/bi"
@@ -8,6 +8,15 @@ import { Newprojcard } from '../Cards/Newprojcard'
 
 export default function Portfolio() {
     const [lang,setlang] = useState(projects) ;
+
+    // scrolltoupp
+  const scrollUp = () => {
+    window.scroll(0, 0);
+    };
+
+    useEffect(() => {
+        scrollUp();
+    }, []);
 
     // filer
     const filterlang = (language) => {

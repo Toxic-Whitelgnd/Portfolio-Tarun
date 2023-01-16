@@ -1,6 +1,6 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import learnedskills from "../API's/skillsApi"
-
+import TagCloud from "TagCloud";
 import Skillcube from '../CubeAnimations/Skillcube';
 import SkillCircleBar from '../SkillBar/skillcirclebar';
 import SkillsSVG from '../SVGanimations/skillssvg';
@@ -10,6 +10,56 @@ import "../Skills/skills.css"
 
 export default function Skills() {
   const [skillslearn,setskills] = useState(learnedskills);
+  // scrolltoupp
+  const scrollUp = () => {
+    window.scroll(0, 0);
+    };
+
+    useEffect(() => {
+        scrollUp();
+    }, []);
+
+
+  // rotating 3d sphere
+  useEffect(() => {
+      const container = ".tagcloudanimation";
+      const texts = [
+        "HTML",
+        "CSS",
+        "C",
+        "JavaScript",
+        "React",
+        "Java",
+        "python",
+        "NodeJS",
+        "R",
+        "SQL",
+        "Data structure",
+        "GIT",
+        "GITHUB",
+        "express",
+        "MongoDB",
+        "Photoshop",
+        "Illustrator",
+        "After Effects",
+        "Figma",
+        "Fire-base",
+        "sanity",
+        "Tailwindcss",
+        "Bootstrap",
+      ];
+
+      const options = {
+        radius: 360,
+        maxSpeed: "fast",
+        initSpeed: "normal",
+        direction: 90,
+        keep: true,
+      };
+
+      TagCloud(container, texts, options);
+    
+  }, []);
 
   // filter fuc
   const filteritems = (side) => {
@@ -82,10 +132,14 @@ export default function Skills() {
               })
             }
         </div>
+        <div className='hidden md:flex justify-center capitalize text-2xl text-violet-900 container cursor-pointer'>
+          <span className="tagcloudanimation"></span>
+        </div>
         <div>
           <Skillcube />
     
         </div>
+        
     </div>
   )
 }

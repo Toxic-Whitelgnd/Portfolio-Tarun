@@ -15,3 +15,7 @@
     background-color: var(--darkp) !important;
     color: #000 !important;
 }
+
+.tagcloud--item:hover{
+    color: #fff;
+}

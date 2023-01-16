@@ -1,4 +1,4 @@
-import React,{useState,useRef} from 'react'
+import React,{useState,useRef,useEffect} from 'react'
 import "../contact/contact.css"
 import {GoLocation} from "react-icons/go"
 import {MdAlternateEmail} from "react-icons/md"
@@ -9,6 +9,15 @@ import emailjs from '@emailjs/browser';
 import ContactSVG from '../SVGanimations/contactsvg'
 
 export default function Contact() {
+
+    // scrolltoupp
+  const scrollUp = () => {
+    window.scroll(0, 0);
+    };
+
+    useEffect(() => {
+        scrollUp();
+    }, []);
 
     const [first,setfirst] = useState('');
     const [last,setlast] = useState('');

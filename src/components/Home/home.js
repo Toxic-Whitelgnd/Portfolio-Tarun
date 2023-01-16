@@ -10,6 +10,7 @@ export default function Home() {
 
   const nameArray = ['T', 'A', 'R', 'U', 'N']
   
+  
 
   useEffect(() => {
      setTimeout(() => {
