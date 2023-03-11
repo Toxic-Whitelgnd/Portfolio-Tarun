@@ -7,6 +7,9 @@ import img6 from "../../images/Projectnewimg/portfolio.jpg"
 import img7 from "../../images/Projectnewimg/todo.jpg"
 import img8 from "../../images/Projectnewimg/clgclubs.jpg"
 import img9 from "../../images/Projectnewimg/ecommerceanime.jpg"
+import img10 from "../../images/Projectnewimg/textile.jpg"
+import img11 from "../../images/Projectnewimg/blog.jpg"
+import img12 from "../../images/Projectnewimg/JavaED.jpg"
 
 const projects = [
     {
@@ -106,6 +109,40 @@ const projects = [
         based:"NextJS,react,StripeJS,Sanity,Firebase",
 
     },
+    {
+        id:10,
+        name:"Textile-platform",
+        img:img10,
+        languages:"Frontend",
+        website:"toxic-whitelgnd.github.io/textile-platform/",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/textile-platform",
+        description:"Creating a textlile e-comm platform with the use of google-sheets . One of my fastest build within 10hrs I have build this website without external CSS.",
+        based:"ReactJS,Api,Excel Sheets",
+
+    },
+    {
+        id:11,
+        name:"Blog-Website",
+        img:img11,
+        languages:"FullStack",
+        website:"https://toxic-whitelgnd.github.io/jucodecademy-blog-website/",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/jucodecademy-blog-website",
+        description:"I like to do my share as a core club member of jucodeacademy. To contribute this JUCodecademy-Blog-Website project to the club.",
+        based:"NextJS,react,StripeJS,Sanity,Firebase",
+
+    },
+    {
+        id:12,
+        name:"JAVA-Enc-Dec",
+        img:img12,
+        languages:"Java",
+        website:"https://github.com/Toxic-Whitelgnd/JAVA-Encryp-Decryp#readme",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/JAVA-Encryp-Decryp",
+        description:"Encryption and Decryption project using with JAVA OOP'S , Java swings and with sql.",
+        based:"JavaOOPs,JavaSwing,MySql",
+
+    },
+
 
 ];
 

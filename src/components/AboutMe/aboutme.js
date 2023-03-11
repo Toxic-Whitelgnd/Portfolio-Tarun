@@ -53,14 +53,14 @@ class AboutMe extends React.Component {
                 
 
                 <img src={img1} className='object' data-value="-2" alt="image"></img>
-                <img src={img2} className='object' data-value="4" alt="image"></img>
+                <img src={img2} className='object' data-value="6" alt="image"></img>
                 <img src={img3} className='object' data-value="4" alt="image"></img>
-                <img src={img4} className='object' data-value="-4" alt="image"></img>
-                <img src={img5} className='object' data-value="5" alt="image"></img>
+                <img src={img4} className='object' data-value="-6" alt="image"></img>
+                <img src={img5} className='object' data-value="8" alt="image"></img>
                 <img src={img6} className='object' data-value="-4" alt="image"></img>
-                <img src={img7} className='object' data-value="3" alt="image"></img>
-                <img src={img8} className='object' data-value="2" alt="image"></img>
-                <img src={img9} className='object' data-value="5" alt="image"></img>
+                <img src={img7} className='object' data-value="5" alt="image"></img>
+                <img src={img8} className='object' data-value="-3" alt="image"></img>
+                <img src={img9} className='object' data-value="-2" alt="image"></img>
                 
                 
             </div>

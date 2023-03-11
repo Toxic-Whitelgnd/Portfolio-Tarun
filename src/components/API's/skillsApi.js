@@ -15,7 +15,7 @@ const learnedskills= [{
 {
     id:2,
     lang:'CSS',
-    percentage: 75,
+    percentage: 80,
     pathcolor:'#64379F',
     trailcolor:'#9854CB',
     textcolor: '#000',
@@ -24,7 +24,7 @@ const learnedskills= [{
 {
     id:3,
     lang:'JS',
-    percentage: 70,
+    percentage: 75,
     pathcolor:'#64379F',
     trailcolor:'#9854CB',
     textcolor: '#000',
@@ -69,7 +69,7 @@ const learnedskills= [{
 {
     id:11,
     lang:'SQL',
-    percentage: 66,
+    percentage: 69,
     pathcolor:'#9854CB',
     trailcolor:'#64379F',
     textcolor: '#000',
@@ -87,7 +87,7 @@ const learnedskills= [{
 {
     id:8,
     lang:'Java',
-    percentage: 50,
+    percentage: 70,
     pathcolor:'#27104E',
     trailcolor:'#64379F',
     textcolor: '#000',
@@ -96,7 +96,7 @@ const learnedskills= [{
 {
     id:9,
     lang:'C',
-    percentage:55,
+    percentage:51,
     pathcolor:'#27104E',
     trailcolor:'#64379F',
     textcolor: '#000',
@@ -115,7 +115,7 @@ const learnedskills= [{
 {
     id:13,
     lang:'PhotoShop',
-    percentage: 68,
+    percentage: 70,
     pathcolor:' #9854CB',
     trailcolor:'#27104E',
     textcolor: '#000',
