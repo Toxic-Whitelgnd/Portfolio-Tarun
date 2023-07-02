@@ -3,9 +3,9 @@ import React from 'react'
 import "../CubeAnimations/aboutmecube.css"
 
 import myimg1 from "../../images/Aboutmeimages/1.jpg"
-import myimg2 from "../../images/Aboutmeimages/2.jpg"
-import myimg3 from "../../images/Aboutmeimages/3.png"
-import myimg4 from "../../images/Aboutmeimages/4.jpeg"
+import myimg2 from "../../images/Aboutmeimages/2.JPG"
+import myimg3 from "../../images/Aboutmeimages/3.jpg"
+import myimg4 from "../../images/Aboutmeimages/4.jpg"
 
 export default function AboutmeCube() {
   return (

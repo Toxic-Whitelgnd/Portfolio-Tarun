@@ -10,6 +10,7 @@ import img9 from "../../images/Projectnewimg/ecommerceanime.jpg"
 import img10 from "../../images/Projectnewimg/textile.jpg"
 import img11 from "../../images/Projectnewimg/blog.jpg"
 import img12 from "../../images/Projectnewimg/JavaED.jpg"
+import img13 from "../../images/Projectnewimg/FINA.png"
 
 const projects = [
     {
@@ -139,6 +140,17 @@ const projects = [
         website:"https://github.com/Toxic-Whitelgnd/JAVA-Encryp-Decryp#readme",
         sourcecode:"https://github.com/Toxic-Whitelgnd/JAVA-Encryp-Decryp",
         description:"Encryption and Decryption project using with JAVA OOP'S , Java swings and with sql.",
+        based:"JavaOOPs,JavaSwing,MySql",
+
+    },
+    {
+        id:13,
+        name:"FinaceManage",
+        img:img13,
+        languages:"Java",
+        website:"https://github.com/Toxic-Whitelgnd/Finance-management#readme",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/Finance-management",
+        description:"A finance management application is a software program designed to help individuals manage their financial transactions and track their expenses, income, and profit",
         based:"JavaOOPs,JavaSwing,MySql",
 
     },

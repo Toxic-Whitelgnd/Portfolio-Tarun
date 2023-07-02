@@ -19,8 +19,9 @@
     font-weight: 500;
 }
 
-.form{
+.form1{
     grid-area: form;
+    
 }
 .info{
     grid-area: info;
