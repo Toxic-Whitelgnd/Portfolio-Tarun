@@ -11,6 +11,10 @@ import img10 from "../../images/Projectnewimg/textile.jpg"
 import img11 from "../../images/Projectnewimg/blog.jpg"
 import img12 from "../../images/Projectnewimg/JavaED.jpg"
 import img13 from "../../images/Projectnewimg/FINA.png"
+import img14 from "../../images/Projectnewimg/cahtapplication1.jpg"
+import img15 from "../../images/Projectnewimg/ecom.jpg"
+import img16 from "../../images/Projectnewimg/algovault1.jpg";
+import img17 from "../../images/Projectnewimg/chatbotfood1.png";
 
 const projects = [
     {
@@ -154,6 +158,51 @@ const projects = [
         based:"JavaOOPs,JavaSwing,MySql",
 
     },
+    {
+        id:14,
+        name:"DynamicChatApp",
+        img:img14,
+        languages:"Backend",
+        website:"https://playboi-app.onrender.com/",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/Dynamic-chat-app",
+        description:"A chat application that is built to made a conversation among the people who are in the same region. This application allows you to purchase a membership subscription",
+        based:"NodeJs,ExpressJs,Mongodb",
+
+    },
+    {
+        id:15,
+        name:"Foodiechan",
+        img:img17,
+        languages:"FullStack",
+        website:"https://github.com/Toxic-Whitelgnd/Tarun-s-briyani-clientside",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/foodiechan-chatbot-server",
+        description:"A foodchat bot server that act as a virtual waiter, facilaating food orders, delivery and support care.  It is developed using  Python,Reactjs, Mongodb and Nodejs.",
+        based:"NodeJs,ExpressJs,Mongodb,Python,Reactjs",
+
+    },
+    {
+        id:16,
+        name:"Algo-Vault",
+        img:img16,
+        languages:"C#",
+        website:"https://github.com/Toxic-Whitelgnd/AlgoVault",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/AlgoVault-backend",
+        description:"This website is a fulllstack application designed to store coding problems , allowing user to revise or view thier solutions.It utilize Reactjs , C# and MSSQL",
+        based:"C#,Reactjs,MSSql",
+
+    },
+    {
+        id:17,
+        name:"Ecommerce",
+        img:img15,
+        languages:"C#",
+        website:"https://github.com/Toxic-Whitelgnd/AlgoVault",
+        sourcecode:"https://github.com/Toxic-Whitelgnd/AlgoVault-backend",
+        description:"A basic ecommerce website that is being built for learning and working of Reactjs , C# and MSSQL thses tech stacks",
+        based:"C#,Reactjs,MSSql",
+
+    },
+
 
 
 ];
