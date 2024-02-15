@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio-Tarun/static/css/main.de188b0c.css",
-    "main.js": "/Portfolio-Tarun/static/js/main.8ec5878b.js",
-    "static/js/787.79c02c71.chunk.js": "/Portfolio-Tarun/static/js/787.79c02c71.chunk.js",
+    "main.css": "/Portfolio-Tarun/static/css/main.896b473a.css",
+    "main.js": "/Portfolio-Tarun/static/js/main.b036e847.js",
+    "static/js/787.572192a8.chunk.js": "/Portfolio-Tarun/static/js/787.572192a8.chunk.js",
     "static/media/3.jpg": "/Portfolio-Tarun/static/media/3.faad0a442e3b733b52b5.jpg",
     "static/media/2.JPG": "/Portfolio-Tarun/static/media/2.13f9d822f995809f4623.JPG",
     "static/media/4.jpg": "/Portfolio-Tarun/static/media/4.df798dc470de9d81d598.jpg",
+    "static/media/ecom.jpg": "/Portfolio-Tarun/static/media/ecom.a0a669642d85670e8f08.jpg",
     "static/media/HomeStud.jpg": "/Portfolio-Tarun/static/media/HomeStud.f1b01de1e6a90e18d5df.jpg",
     "static/media/newhome1.png": "/Portfolio-Tarun/static/media/newhome1.f6c4e62b040d76007e21.png",
     "static/media/reactskills.png": "/Portfolio-Tarun/static/media/reactskills.e94c80829ce86a8a08ca.png",
@@ -19,6 +20,8 @@
     "static/media/1.jpg": "/Portfolio-Tarun/static/media/1.f97f7a4ce555c34c5d33.jpg",
     "static/media/encrypdecryppy.jpg": "/Portfolio-Tarun/static/media/encrypdecryppy.6dab02bc6eb638fd805d.jpg",
     "static/media/blog.jpg": "/Portfolio-Tarun/static/media/blog.6d14d6876afacde81521.jpg",
+    "static/media/chatbotfood1.png": "/Portfolio-Tarun/static/media/chatbotfood1.f27269ff657dce7fb1e2.png",
+    "static/media/algovault1.jpg": "/Portfolio-Tarun/static/media/algovault1.5c745b536dc36a291740.jpg",
     "static/media/TravelP.png": "/Portfolio-Tarun/static/media/TravelP.647b49e03dc34fd5a371.png",
     "static/media/clgclub.jpg": "/Portfolio-Tarun/static/media/clgclub.a3ef2b81d264db6e8fbd.jpg",
     "static/media/GamesP.png": "/Portfolio-Tarun/static/media/GamesP.6d2d8809398e8933a3b1.png",
@@ -38,15 +41,16 @@
     "static/media/FigmaSkill.png": "/Portfolio-Tarun/static/media/FigmaSkill.6f69a876ac5418f3940b.png",
     "static/media/todo.jpg": "/Portfolio-Tarun/static/media/todo.669c44dd6b45a9a6fa33.jpg",
     "static/media/FlutterSkill.png": "/Portfolio-Tarun/static/media/FlutterSkill.c293b6bec567dea3f8c4.png",
+    "static/media/cahtapplication1.jpg": "/Portfolio-Tarun/static/media/cahtapplication1.b1359064c8361b121ee4.jpg",
     "static/media/LifeP.png": "/Portfolio-Tarun/static/media/LifeP.77cadcd169ff187a6b41.png",
     "static/media/logo.svg": "/Portfolio-Tarun/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio-Tarun/index.html",
-    "main.de188b0c.css.map": "/Portfolio-Tarun/static/css/main.de188b0c.css.map",
-    "main.8ec5878b.js.map": "/Portfolio-Tarun/static/js/main.8ec5878b.js.map",
-    "787.79c02c71.chunk.js.map": "/Portfolio-Tarun/static/js/787.79c02c71.chunk.js.map"
+    "main.896b473a.css.map": "/Portfolio-Tarun/static/css/main.896b473a.css.map",
+    "main.b036e847.js.map": "/Portfolio-Tarun/static/js/main.b036e847.js.map",
+    "787.572192a8.chunk.js.map": "/Portfolio-Tarun/static/js/787.572192a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de188b0c.css",
-    "static/js/main.8ec5878b.js"
+    "static/css/main.896b473a.css",
+    "static/js/main.b036e847.js"
   ]
 }
