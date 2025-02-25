@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Tarun/static/css/main.896b473a.css",
-    "main.js": "/Portfolio-Tarun/static/js/main.54782142.js",
+    "main.js": "/Portfolio-Tarun/static/js/main.388c802c.js",
     "static/js/787.572192a8.chunk.js": "/Portfolio-Tarun/static/js/787.572192a8.chunk.js",
     "static/media/3.jpg": "/Portfolio-Tarun/static/media/3.faad0a442e3b733b52b5.jpg",
     "static/media/2.JPG": "/Portfolio-Tarun/static/media/2.13f9d822f995809f4623.JPG",
@@ -48,11 +48,11 @@
     "static/media/logo.svg": "/Portfolio-Tarun/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio-Tarun/index.html",
     "main.896b473a.css.map": "/Portfolio-Tarun/static/css/main.896b473a.css.map",
-    "main.54782142.js.map": "/Portfolio-Tarun/static/js/main.54782142.js.map",
+    "main.388c802c.js.map": "/Portfolio-Tarun/static/js/main.388c802c.js.map",
     "787.572192a8.chunk.js.map": "/Portfolio-Tarun/static/js/787.572192a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.896b473a.css",
-    "static/js/main.54782142.js"
+    "static/js/main.388c802c.js"
   ]
 }
